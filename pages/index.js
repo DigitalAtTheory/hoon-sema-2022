@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Hoon - SEMA 2022</title>
+        <title>Hoonipigasus - SEMA 2022</title>
       </Head>
       <Slash />
       <div className="max-w-5xl px-8 mx-auto flex flex-col align-middle justify-center relative z-20">
