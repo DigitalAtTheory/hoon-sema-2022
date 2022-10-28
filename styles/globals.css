@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url("/photos/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cog-cognito {
+  --highlight: #f51832 !important;
+  --highlight-reverse: white !important;
+}
+
+.cog-cognito {
+  @apply text-white !important;
+}
+
+.cog-header__text {
+  @apply hidden !important;
+}
+
+.cog-section__heading {
+  @apply hidden !important;
+}
+
+/* ---- GENDER SELECT STYLES ---- */
+
+.cog-label {
+  @apply text-white font-bold !important;
+}
+
+.cog-field--18-1 .el-radio-group {
+  @apply grid md:grid-cols-2 gap-x-8 md:gap-y-4 !important;
+}
+
+.cog-field--18-1 .el-radio {
+  @apply border-2 border-solid rounded-md py-3 px-3 flex items-center justify-center text-sm font-semibold  uppercase sm:flex-1 cursor-pointer focus:outline-none bg-gray-700 border-gray-600 text-gray-100 hover:bg-gray-500 !important;
+}
+
+.cog-field--18-1 .el-radio:active {
+  @apply ring-2 ring-offset-2 ring-[#f51832] !important;
+}
+
+.cog-field--18-1 .el-radio.is-checked {
+  @apply bg-[#f51832] border-transparent text-white hover:bg-red-700 !important;
+}
+
+.cog-field--18-1 .el-radio__input {
+  @apply sr-only !important;
+}
+
+.cog-field--18-1 .el-radio__original {
+  @apply sr-only !important;
+}
+/* ---- END GENDER SELECT STYLES ---- */
+/* ---- INPUT STYLES ---- */
+.cog-text,
+.cog-email,
+.cog-field--18-3 {
+  @apply rounded-md border border-solid border-gray-600 bg-gray-700 px-3 py-2 shadow-sm focus-within:border-[#f51832] focus-within:ring-1 focus-within:ring-[#f51832] !important;
+}
+
+.el-input__inner {
+  @apply block w-full border-0 p-0 bg-transparent text-gray-100 placeholder-gray-300/50 font-semibold focus:ring-0 sm:text-sm  !important;
+}
+
+.cog-text .cog-label,
+.cog-email .cog-label,
+.cog-number .cog-label {
+  @apply block text-base font-semibold text-gray-300 visible not-sr-only !important;
+  clip-path: none !important;
+}
+/* ---- END INPUT STYLES ---- */
+/* ---- OPTIN STYLES ---- */
+
+.el-checkbox {
+  @apply mb-0 !important;
+}
+
+.el-checkbox__inner {
+  @apply rounded-lg !important;
+}
+
+.el-checkbox__inner::after {
+  @apply border-gray-100 !important;
+}
+
+.el-checkbox__label {
+  @apply pl-7 !important;
+}
+
+.cog-helptext {
+  @apply pl-6 !important;
+}
+
+.cog-content > h5 {
+  @apply text-white !important;
+}
+
+.cog-content > p {
+  @apply text-sm !important;
+}
+
+.cog-field--18-92 .cog-label,
+.cog-field--18-93 .cog-label {
+  @apply text-center !important;
+}
+
+.cog-field--18-92 .cog-choice,
+.cog-field--18-93 .cog-choice {
+  @apply md:w-3/4 mx-auto !important;
+}
+
+.el-button {
+  @apply text-white text-lg py-4 px-16 bg-[#f51832] font-semibold rounded-lg block text-center md:w-1/2 mx-auto mt-12 cursor-pointer !important;
+}
+
+.cog-confirmation__message > h2 {
+  @apply text-white !important;
+}
+
+.cog-confirmation__message > p {
+  @apply text-white text-xl !important;
+}
