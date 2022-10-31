@@ -34,7 +34,7 @@ export default function Home() {
             smooth={true}
             duration={500}
           >
-            Sign me up
+            Count me in
           </Link>
         </div>
         <div className="md:w-3/4 mx-auto flex justify-center mb-12">
@@ -49,9 +49,6 @@ export default function Home() {
           </div>
           <p className="lg:w-11/12 text-white text-center md:text-left text-lg md:text-3xl font-light self-center">{`More than 1,500,000 Porsche engines have been filled with Mobil 1 from day one. That includes the most powerful Porsche engines ever built. While the Hoonipigasus does retain 1,400 of flying pony power, it relies on the same Mobil 1 technology found in the daily drivers coming out of Stuttgart.`}</p>
         </div>
-        <p className="text-center text-sm text-gray-500 mt-4">
-          *Mobil 1 bottle custom label not found elsewhere.
-        </p>
         <div id="formContainer" className="my-24 max-w-2xl mx-auto">
           <h2 className="text-4xl text-white font-bold text-center mb-12">
             Sign up, stay tuned
