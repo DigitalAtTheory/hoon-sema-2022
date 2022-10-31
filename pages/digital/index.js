@@ -24,7 +24,10 @@ export default function Digital() {
           </div>
           <div>
             <p className="text-center text-white text-lg md:text-3xl font-light w-3/4 mx-auto">
-              {`Since you couldn't be here with us at the SEMA Show, we're bringing the show to you. If you liked the video that brought you here, fill out the survey below to get on our list for more content like this before it drops anywhere else.`}
+              Since you {`couldn't`} be here with us at the SEMA Show, {`we're`}{" "}
+              bringing the show to you. If you liked the content that brought
+              you here, fill out the survey below to get on our list for more
+              content like this before it drops anywhere else.
             </p>
           </div>
           <Link
@@ -41,12 +44,15 @@ export default function Digital() {
           <Lockup />
         </div>
         <div className="flex flex-col lg:flex-row gap-12 md:gap-24 w-3/4 mx-auto">
-          <Bottle />
+          <div>
+            <Bottle />
+            <p className="text-center text-sm text-gray-500 mt-4">
+              *Mobil 1 bottle custom label not found elsewhere.
+            </p>
+          </div>
           <p className="lg:w-11/12 text-center text-white md:text-left text-lg md:text-3xl font-light self-center">{`More than 1,500,000 Porsche engines have been filled with Mobil 1 from day one. That includes the most powerful Porsche engines ever built. While the Hoonipigasus does retain 1,400 of flying pony power, it relies on the same Mobil 1 technology found in the daily drivers coming out of Stuttgart.`}</p>
         </div>
-        <p className="text-center text-sm text-gray-500 mt-4">
-          *Mobil 1 bottle custom label not found elsewhere.
-        </p>
+
         <div id="formContainer" className="my-24 max-w-2xl mx-auto">
           <h2 className="text-4xl text-white font-bold text-center mb-12">
             Sign up, stay tuned

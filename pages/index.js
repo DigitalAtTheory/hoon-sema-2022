@@ -41,7 +41,12 @@ export default function Home() {
           <Lockup />
         </div>
         <div className="flex flex-col lg:flex-row gap-12 md:gap-24 w-3/4 mx-auto">
-          <Bottle />
+          <div>
+            <Bottle />
+            <p className="text-center text-sm text-gray-500 mt-4">
+              *Mobil 1 bottle custom label not found elsewhere.
+            </p>
+          </div>
           <p className="lg:w-11/12 text-white text-center md:text-left text-lg md:text-3xl font-light self-center">{`More than 1,500,000 Porsche engines have been filled with Mobil 1 from day one. That includes the most powerful Porsche engines ever built. While the Hoonipigasus does retain 1,400 of flying pony power, it relies on the same Mobil 1 technology found in the daily drivers coming out of Stuttgart.`}</p>
         </div>
         <p className="text-center text-sm text-gray-500 mt-4">

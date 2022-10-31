@@ -2,7 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "EMPrint";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/EMprint-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "EMPrint";
+  font-style: light;
+  font-weight: 300;
+  src: local(""), url("/fonts/EMprint-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "EMPrint";
+  font-weight: 500;
+  src: local(""), url("/fonts/EMprint-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "EMPrint";
+  font-style: bold;
+  font-weight: 600;
+  src: local(""), url("/fonts/EMprint-Bold.ttf") format("truetype");
+}
+
 body {
+  font-family: "EMPrint";
   background: url("/photos/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
